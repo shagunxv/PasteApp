@@ -75,7 +75,7 @@ const ViewPaste = () => {
             title="Copy content"
           >
             <Copy size={17} />
-            <span>Copy</span>
+            <span></span>
           </button>
 
         </div>

@@ -1,16 +1,74 @@
-# React + Vite
+# 📋 PasteApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple and modern **Paste Management Web App** built with React and Redux Toolkit.
 
-Currently, two official plugins are available:
+PasteApp allows users to create, view, edit, delete, copy and share text snippets through unique URLs. Paste data is stored in the browser using LocalStorage, making the application lightweight and easy to use.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+🔗 **[PasteApp Live](https://paste-app-alpha-gray.vercel.app/)**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the Oxlint configuration
+- 📝 Create a new paste
+- 👀 View saved pastes
+- ✏️ Edit existing pastes
+- 🗑️ Delete pastes
+- 📋 Copy paste content to clipboard
+- 🔗 Share paste through a unique URL
+- 💾 Persistent data using LocalStorage
+- 🔄 Redux Toolkit for state management
+- 📱 Responsive and clean UI
+- ⚡ Fast development and deployment with Vite + Vercel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+
+### State Management
+- Redux Toolkit
+- React Redux
+
+### Build Tool
+- Vite
+
+### Storage
+- Browser LocalStorage
+
+### Deployment
+- Vercel
+
+## 📂 Project Structure -
+
+paste-app/
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   │
+│   ├── components/
+│   │   ├── Home.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── Paste.jsx
+│   │   └── ViewPaste.jsx
+│   │
+│   ├── redux/
+│   │   └── pasteSlice.js
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   ├── main.jsx
+│   └── store.js
+│
+├── .gitignore
+├── index.html
+├── package.json
+├── vite.config.js
+├── vercel.json
+└── README.md
